@@ -31,6 +31,3 @@ func serveWs(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println("New Client joined the hub !", client)
 }
-func main() {
-
-}
